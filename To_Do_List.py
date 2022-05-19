@@ -19,11 +19,20 @@ while chec:
              read_in_file =open('TO_DO.txt',"r", encoding="utf-8")
              print(read_in_file.read())
              read_in_file.close
+        if t=="n":
+            v=input("type in his new To-Do item")
+            continue
+    
+        """write_in_file =open('TO_DO.txt',"w", encoding="utf-8")
+        write_in_file.write(v)
+        write_in_file.close"""
              
              
     if y_or_n == "exit":
-     print("thankyou")
-     break
+        check = False
+        print("thankyou")
+        break
+     
      
             
                
