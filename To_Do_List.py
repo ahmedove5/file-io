@@ -28,10 +28,10 @@ while chec:
         write_in_file.close"""
              
              
-    if y_or_n == "exit":
+    if y_or_n == "exit" :
         check = False
         print("thankyou")
-        break
+        exit()
      
      
             
